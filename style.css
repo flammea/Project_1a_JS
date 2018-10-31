@@ -3,7 +3,7 @@ button {
     margin: 20px auto;
     background-color: #FFFFFF;
     color: crimson;
-    padding: 5px;
+    padding: 10px 5px;
     text-transform: uppercase;
     border-radius: 5px;
     border: 2px solid crimson;
@@ -18,20 +18,24 @@ button:focus {
     outline: 0;
 }
 
+div,
+.circle {
+    border: 2px solid darkslategray;
+}
+
 div {
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     background-color: darkslategrey;
-    margin: 5px;
+    margin: 10px;
     float: left;
     color: #FFFFFF;
     text-align: center;
-    line-height: 30px;
+    line-height: 50px;
 }
 
 .circle {
     background-color: #FFFFFF;
     border-radius: 50%;
     color: darkslategray;
-    border: 2px solid darkslategray;
 }
